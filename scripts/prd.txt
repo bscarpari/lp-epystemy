@@ -1,0 +1,131 @@
+<context>
+# Overview
+Epystemy Landing Page is a modern, performant, and accessible website designed to showcase Epystemy's services and capabilities. The site features interactive 3D elements, smooth animations, and a polished user experience while maintaining high performance and accessibility standards.
+
+# Core Features
+- Loading Experience
+  - Custom geometric SVG spinner animation with smooth transitions
+  - Optimized initial page load experience
+  
+- Navigation System
+  - Responsive navbar with glassmorphism effect
+  - Integrated CTA button with WhatsApp
+  - Smooth scrolling between sections
+
+- Contact Form
+  - EmailJS integration for form submissions
+  - Input validation and status notifications
+  - Rate limiting and security measures
+
+- 3D Elements
+  - Three.js powered Greek statue model in About section
+  - Optimized geometric SVG backgrounds
+  - Performance-optimized 3D rendering
+
+- Micro-interactions
+  - Reveal-on-scroll animations
+  - Interactive hover effects
+  - Card flip animations
+
+# User Experience
+- User Personas
+  - Potential clients looking to learn about Epystemy's services
+  - Mobile and desktop users requiring responsive design
+  - Users with accessibility needs requiring WCAG compliance
+
+- Key User Flows
+  - Landing → About → Services → Contact
+  - Direct contact via WhatsApp CTA
+  - Form submission flow with validation
+
+- UI/UX Considerations
+  - Consistent 12px border radius across components
+  - 8px spacing system
+  - Defined typography and color system
+  - Mobile-first responsive design
+</context>
+<PRD>
+# Technical Architecture
+- System Components
+  - HTML5 semantic structure
+  - CSS3 with modern features (Grid, Flexbox)
+  - JavaScript with Three.js integration
+  - EmailJS for form handling
+
+- Data Models
+  - Form submission data structure
+  - 3D model and texture assets
+  - SVG and image assets
+
+- APIs and Integrations
+  - EmailJS API
+  - WhatsApp integration
+  - Three.js and GLTFLoader
+
+- Infrastructure Requirements
+  - Static hosting (no backend required)
+  - CDN for asset delivery
+  - Build system for optimization
+
+# Development Roadmap
+- MVP Requirements
+  1. Project setup and core HTML/CSS structure
+  2. Basic responsive design implementation
+  3. Navigation and form functionality
+  4. Essential animations and interactions
+
+- Future Enhancements
+  1. Advanced 3D elements and optimizations
+  2. Additional micro-interactions
+  3. Enhanced accessibility features
+  4. Performance optimizations
+
+# Logical Dependency Chain
+1. Foundation (Project Setup)
+   - Repository setup
+   - Build tools configuration
+   - Core HTML/CSS structure
+
+2. Core Functionality
+   - Navigation system
+   - Contact form
+   - Basic responsive design
+
+3. Enhanced Features
+   - Loading experience
+   - 3D elements
+   - Micro-interactions
+
+4. Polish & Optimization
+   - Accessibility improvements
+   - Performance optimization
+   - Testing and documentation
+
+# Risks and Mitigations
+- Technical Challenges
+  - 3D performance optimization → Implement lazy loading and compression
+  - Cross-browser compatibility → Thorough testing and fallbacks
+  - Mobile responsiveness → Mobile-first approach
+
+- MVP Considerations
+  - Start with essential features
+  - Ensure core functionality before advanced features
+  - Maintain extensible architecture
+
+- Resource Constraints
+  - Optimize asset sizes
+  - Implement efficient loading strategies
+  - Use modern browser features with fallbacks
+
+# Appendix
+- Research Findings
+  - WCAG 2.1 Level AA requirements
+  - Performance benchmarks (90+ Lighthouse score)
+  - Browser support requirements
+
+- Technical Specifications
+  - Breakpoints: 320px, 768px, 1024px, 1440px
+  - Border radius: 12px standard
+  - Animation timings: 1.5s loading, smooth transitions
+  - Rate limiting: 1 submission/minute
+</PRD>
